@@ -12,7 +12,7 @@ pipeline {
     stages {
         stage('Git Checkout') {
             steps {
-                 git branch: 'master', url: 'https://github.com/Srinu-rj/mysql-application'
+                 git branch: 'master', url: 'https://github.com/MyGH-2025/mysql-application'
             }
         }
 
